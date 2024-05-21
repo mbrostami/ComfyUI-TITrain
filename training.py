@@ -390,11 +390,11 @@ class TextualInversionTraining:
         return run_script(args, max_train_steps)
         
 NODE_CLASS_MAPPINGS = {
-    "TextualInversionTrainingSDXL": TextualInversionTrainingSDXL,
+    # "TextualInversionTrainingSDXL": TextualInversionTrainingSDXL,
     "TextualInversionTraining": TextualInversionTraining
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "TextualInversionTrainingSDXL": "Textual Inversion Training SDXL",
+    # "TextualInversionTrainingSDXL": "Textual Inversion Training SDXL",
     "TextualInversionTraining": "Textual Inversion Training SD1.5"
 }
