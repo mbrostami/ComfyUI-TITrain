@@ -2,7 +2,7 @@
 name = "comfyui-titrain"
 description = "Nodes:TextualInversionTrainingSDXL, TextualInversionTraining"
 version = "1.0.0"
-license = "LICENSE"
+license = { file = "LICENSE" }
 dependencies = ["accelerate>=0.16.0", "torchvision", "transformers>=4.25.1", "ftfy", "tensorboard", "Jinja2", "pexpect"]
 
 [project.urls]
